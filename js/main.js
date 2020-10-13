@@ -6,6 +6,9 @@ const switchBtn = () => {
   if (btn2El.classList.length > 1) {
     btn2El.classList.add('grey');
   }
+  if (textEl.classList.length > 1) {
+    textEl.classList.remove('switcher');
+  }
   btn2El.classList.add('switcher');
 }
 btn1El.addEventListener('click', switchBtn);
