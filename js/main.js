@@ -3,10 +3,10 @@ const btn2El = document.querySelector('.btn2');
 const textEl = document.querySelector('.hello');
 
 const switchBtn = () => {
-  btn2El.classList.toggle('switcher');
-  if (btn2El.classList.length > 0) {
-    textEl.classList.remove('switcher');
+  if (btn2El.classList.length > 1) {
+    btn2El.classList.add('grey');
   }
+  btn2El.classList.add('switcher');
 }
 btn1El.addEventListener('click', switchBtn);
 

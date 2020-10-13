@@ -44,4 +44,9 @@ html {
 .switcher {
   display: block;
 }
+
+.grey {
+  background-color: gray;
+  color: white;
+}
 /*# sourceMappingURL=main.css.map */
